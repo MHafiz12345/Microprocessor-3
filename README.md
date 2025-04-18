@@ -65,18 +65,6 @@ This lab integrates several essential embedded system concepts: **bit-level LCD 
 * Pin masking and bitwise control
 * Hardware abstraction through clean APIs
 
-## 📚 Build Instructions
-
-```bash
-# Compile all source files
-avr-gcc -mmcu=atmega2560 -O2 -o lcd_counter.elf main.c lcd.c led.c switch.c timer.c
-
-# Convert to hex file
-avr-objcopy -O ihex -R .eeprom lcd_counter.elf lcd_counter.hex
-
-# Flash to microcontroller (using avrdude)
-avrdude -p atmega2560 -c stk500v2 -P /dev/ttyACM0 -U flash:w:lcd_counter.hex
-```
 
 ## 🔌 Hardware Requirements
 
