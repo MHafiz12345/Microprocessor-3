@@ -1,10 +1,3 @@
-//----------------------------------------------------------------------//
-// Author:   Muhammad Hafiz      
-// Net ID:   muhammadhafiz      
-// Date:     03 March 2025     
-// Assignment: Lab 3
-//----------------------------------------------------------------------//
-
 #ifndef SWITCH_H
 #define SWITCH_H
 
